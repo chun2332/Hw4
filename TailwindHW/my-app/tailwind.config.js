@@ -9,7 +9,7 @@ module.exports = {
       backgroundColor: theme => ({
         ... theme('colors'),
         'orange': '#fe8400'
-      })
+      }),
     },
   },
   variants: {

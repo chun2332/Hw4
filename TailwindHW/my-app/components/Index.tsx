@@ -1,15 +1,18 @@
 const Index = () => {
     return <>
-        <table className="m-auto w-1/2">
-             <tr>
-                <th>星期日</th>
-                <th>星期一</th>
-                <th>星期二</th>
-                <th>星期三</th>
-                <th>星期四</th>
-                <th>星期五</th>
-                <th>星期六</th>
-            </tr>
+        <table className="m-auto w-2/5">
+            <thead>
+                <tr className="text-gray-600">
+                    <th >星期日</th>
+                    <th>星期一</th>
+                    <th>星期二</th>
+                    <th>星期三</th>
+                    <th>星期四</th>
+                    <th>星期五</th>
+                    <th>星期六</th>
+                </tr>
+            </thead>
+            <tbody>
             <tr>
                 <td className="no-style"></td>
                 <td className="outline-gray">
@@ -23,21 +26,33 @@ const Index = () => {
                     </div>
                 </td>
                 <td className="outline-gray">
-                    <div className="h-24">
-                        <span>3</span>
-                        <span className="w-10 bg-orange text-white text-center absolute">成團</span>
+                    <div className="h-24 flex justify-between">
+                        <div>
+                            <span>3</span>
+                        </div>
+                        <div className="w-10 h-6 bg-orange text-white text-center">
+                            <span>成團</span>
+                        </div>
                     </div>
                 </td>
                 <td className="outline-gray">
-                    <div className="h-24">
-                        <span>4</span>
-                        <span className="w-10 bg-orange text-white text-center  absolute">成團</span>
+                    <div className="h-24 flex justify-between">
+                        <div>
+                            <span>4</span>
+                        </div>
+                        <div className="w-10 h-6 bg-orange text-white text-center">
+                            <span>成團</span>
+                        </div>
                     </div>
                 </td>
                 <td className="outline-gray">
-                    <div className="h-24">
-                        <span>5</span>
-                        <span className="w-10 bg-orange text-white text-center  absolute">成行</span>
+                    <div className="h-24 flex justify-between">
+                        <div>
+                            <span>5</span>
+                        </div>
+                        <div className="w-10 h-6 bg-orange text-white text-center">
+                            <span>成行</span>
+                        </div>
                     </div>
                 </td>
                 <td className="outline-gray">
@@ -48,9 +63,13 @@ const Index = () => {
             </tr>
             <tr>
                 <td className="outline-gray">
-                    <div className="h-24">
-                        <span>7</span>
-                        <span className="w-10 bg-orange text-white text-center  absolute">成行</span>
+                    <div className="h-24 flex justify-between">
+                        <div>
+                            <span>7</span>
+                        </div>
+                        <div className="w-10 h-6 bg-orange text-white text-center">
+                            <span>成行</span>
+                        </div>
                     </div>
                 </td>
                 <td className="outline-gray">
@@ -121,70 +140,72 @@ const Index = () => {
                     </div>
                 </td>
             </tr>
-            <tr>
-                <td className="outline-gray">
-                    <div className="h-24">
-                        <span>21</span>
-                    </div>
-                </td>
-                <td className="outline-gray">
-                    <div className="h-24">
-                        <span>22</span>
-                    </div>
-                </td>
-                <td className="outline-gray">
-                    <div className="h-24">
-                        <span>23</span>
-                    </div>
-                </td>
-                <td className="outline-gray">
-                    <div className="h-24">
-                        <span>24</span>
-                    </div>
-                </td>
-                <td className="outline-gray">
-                    <div className="h-24">
-                        <span>25</span>
-                    </div>
-                </td>
-                <td className="outline-gray">
-                    <div className="h-24">
-                        <span>26</span>
-                    </div>
-                </td>
-                <td className="outline-gray">
-                    <div className="h-24">
-                        <span>27</span>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td className="outline-gray">
-                    <div className="h-24">
-                        <span>28</span>
-                    </div>
-                </td>
-                <td className="outline-gray">
-                    <div className="h-24">
-                        <span>29</span>
-                    </div>
-                </td>
-                <td className="outline-gray">
-                    <div className="h-24">
-                        <span>30</span>
-                    </div>
-                </td>
-                <td className="outline-gray">
-                    <div className="h-24">
-                        <span>31</span>
-                    </div>
-                </td>
-                <td className="no-style"></td>
-                <td className="no-style"></td>
-                <td className="no-style"></td>
-            </tr>
+                <tr>
+                    <td className="outline-gray">
+                        <div className="h-24">
+                            <span>21</span>
+                        </div>
+                    </td>
+                    <td className="outline-gray">
+                        <div className="h-24">
+                            <span>22</span>
+                        </div>
+                    </td>
+                    <td className="outline-gray">
+                        <div className="h-24">
+                            <span>23</span>
+                        </div>
+                    </td>
+                    <td className="outline-gray">
+                        <div className="h-24">
+                            <span>24</span>
+                        </div>
+                    </td>
+                    <td className="outline-gray">
+                        <div className="h-24">
+                            <span>25</span>
+                        </div>
+                    </td>
+                    <td className="outline-gray">
+                        <div className="h-24">
+                            <span>26</span>
+                        </div>
+                    </td>
+                    <td className="outline-gray">
+                        <div className="h-24">
+                            <span>27</span>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td className="outline-gray">
+                        <div className="h-24">
+                            <span>28</span>
+                        </div>
+                    </td>
+                    <td className="outline-gray">
+                        <div className="h-24">
+                            <span>29</span>
+                        </div>
+                    </td>
+                    <td className="outline-gray">
+                        <div className="h-24">
+                            <span>30</span>
+                        </div>
+                    </td>
+                    <td className="outline-gray">
+                        <div className="h-24">
+                            <span>31</span>
+                        </div>
+                    </td>
+                    <td className="no-style"></td>
+                    <td className="no-style"></td>
+                    <td className="no-style"></td>
+                </tr>
+            </tbody>
         </table>
     </>
 }
 
 export default Index
+
